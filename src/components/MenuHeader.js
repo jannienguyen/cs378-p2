@@ -5,7 +5,7 @@ const MenuHeader = ({ logoImgName, slogan1, slogan2 }) => {
       <div>
         <div class="row">
           <div class="col">
-            <img class="logo" src={`./cs378-p2/images/${logoImgName}`} alt="JBites logo" />
+            <img class="logo" src={`${process.env.PUBLIC_URL}/images/${logoImgName}`} alt="JBites logo" />
           </div>
         </div>
         <div class="row">

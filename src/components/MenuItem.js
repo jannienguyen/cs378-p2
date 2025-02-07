@@ -9,7 +9,7 @@ const MenuItem = ({ id }) => {
     return (
         <div class="row menuItem">
             <div class="col-4 itemImgCol">
-                <img class="itemImg" src={`./cs378-p2/images/${id.imageName}`} alt={id.title} />
+                <img class="itemImg" src={`${process.env.PUBLIC_URL}/images/${id.imageName}`} alt={id.title} />
             </div>
             <div class="col-8">
                 <p class="itemName">{id.title}</p>
